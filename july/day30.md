@@ -98,7 +98,7 @@ system("/bin/sh");
 ```
 
 이를 **GOT overwrite**라고 한다.
-
++ 추가로 puts@GOT는 읽으러 갈 위치이고, GOT 안의 값은 실제로 얻으려는 libc 함수 주소이다.
 ### RELRO와의 관계
 
 Partial RELRO:
